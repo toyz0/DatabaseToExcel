@@ -40,7 +40,8 @@ public class Program
         if (!Directory.Exists("Export"))
             Directory.CreateDirectory("Export");
 
-        string filePath = Path.Combine("Export", $"YOUR_FILE_NAME.xlsx");
+        //Change <YOUR_FILE_NAME> to your file name.
+        string filePath = Path.Combine("Export", "<YOUR_FILE_NAME>.xlsx");
         await File.WriteAllBytesAsync(filePath, excelBytes);
     }
 
