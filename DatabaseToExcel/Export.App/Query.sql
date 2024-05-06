@@ -1,0 +1,1 @@
+select column1, column2, column3 from your_table
