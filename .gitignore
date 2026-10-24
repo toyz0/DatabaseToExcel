@@ -2,7 +2,13 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/DatabaseToExcel/Helpers/obj
-/.vs
-/DatabaseToExcel/Export.App/obj
-/DatabaseToExcel/.vs/DatabaseToExcel
+# Build output (exported Excel files land in bin/.../Export/)
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+
+# Local review notes
+docs/

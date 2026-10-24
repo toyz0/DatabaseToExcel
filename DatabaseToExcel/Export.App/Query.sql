@@ -1,1 +1,1 @@
-select column1, column2, column3 from your_table
+SELECT field_1, field_2, field_3, field_4 FROM your_table
